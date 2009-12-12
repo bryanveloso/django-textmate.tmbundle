@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:Modelname}(${2:models.Model}):
+    """${3:($1 description)}"""
+    $0
+
+    ${4:class Meta:
+        ordering = [${5:}]
+        verbose_name, verbose_name_plural = "${6:}", "${7:$6s}"}
+
+    def __unicode__(self):
+        return ${8:u"$1"}
+
+    ${9:@models.permalink
+    def get_absolute_url(self):
+        return ('${10:$1}', [${11:self.id}])}</string>
+	<key>name</key>
+	<string>Model Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>model</string>
+	<key>uuid</key>
+	<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
+</dict>
+</plist>

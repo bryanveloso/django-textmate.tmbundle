@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:Modelname}(models.Model):
+	"""${2:($1 description)}"""
+	${3:target_field_name} = models.ForeignKey(${4:TargetModel})
+	${5:source_field_name} = models.ForeignKey(${6:SourceModel})
+	$0
+</string>
+	<key>name</key>
+	<string>Intermediate Model Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>intermediate</string>
+	<key>uuid</key>
+	<string>13C50F79-B005-43DC-9314-39DCB62D66D6</string>
+</dict>
+</plist>

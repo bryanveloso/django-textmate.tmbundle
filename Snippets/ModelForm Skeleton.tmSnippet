@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ModelnameForm}(forms.ModelForm):
+    $0
+
+    ${3:def clean_${4:fieldname}(self):
+         $5
+		return self.cleaned_data['$4']}
+
+    ${6:def clean(self):
+         ${7:}
+         return self.cleaned_data}
+
+    ${8:def save(self):
+        super($1, self).save()
+        ${9:}}</string>
+	<key>name</key>
+	<string>ModelForm Skeleton</string>
+	<key>tabTrigger</key>
+	<string>modelform</string>
+	<key>uuid</key>
+	<string>438161E8-695F-4604-BEFC-3C1DFFEC34C5</string>
+</dict>
+</plist>

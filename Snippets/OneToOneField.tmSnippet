@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FIELDNAME} = models.OneToOneField(${2:RELATED_MODEL}${3:, related_name="${4:RELATED_NAME}"})</string>
+	<key>name</key>
+	<string>OneToOneField</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>oto</string>
+	<key>uuid</key>
+	<string>78D53E2D-B51C-4404-A390-DAFFAEA84EDE</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+
+import os
+
+f = open(os.environ['TM_NEW_FILE'], 'w')
+try:
+	import django
+except ImportError:
+	template = 'template.py'
+else:
+	template = os.path.join(django.__path__[0], 'conf', 'app_template', 'models.py')
+template_str = open(template, 'r').read()
+
+f.write(template_str)
+f.close()</string>
+	<key>extension</key>
+	<string>py</string>
+	<key>name</key>
+	<string>models.py Template</string>
+	<key>uuid</key>
+	<string>812C9AE3-18CA-449F-B3CE-C8DB9EB6782C</string>
+</dict>
+</plist>

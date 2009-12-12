@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+
+import os, re
+from random import choice
+
+f = open(os.environ['TM_NEW_FILE'], 'w')
+try:
+	import django
+except ImportError:
+	template = 'template.py'
+else:
+	template = os.path.join(django.__path__[0], 'conf', 'project_template', 'settings.py')
+template_str = open(template, 'r').read()
+
+secret_key = ''.join([choice('abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&amp;*(-_=+)') for i in range(50)])
+template_str = re.sub(r"(?&lt;=SECRET_KEY = ')'", secret_key + "'", template_str)
+
+f.write(template_str)
+f.close()</string>
+	<key>extension</key>
+	<string>py</string>
+	<key>name</key>
+	<string>settings.py Template</string>
+	<key>uuid</key>
+	<string>4AF3A297-111C-4FBC-841F-2CA530A41F08</string>
+</dict>
+</plist>

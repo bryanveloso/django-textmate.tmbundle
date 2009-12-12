@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+
+import os
+f = open(os.environ['TM_NEW_FILE'], 'w')
+
+template_str = open('test.py', 'r').read()
+
+template_str = template_str % {
+	'application' : os.path.basename(os.path.dirname(os.environ['TM_NEW_FILE'])).title()}
+
+f.write(template_str)
+f.close()</string>
+	<key>extension</key>
+	<string>py</string>
+	<key>name</key>
+	<string>Django TestCase Template</string>
+	<key>uuid</key>
+	<string>E61F8305-7133-4E20-A588-0ABE0D7606F7</string>
+</dict>
+</plist>
