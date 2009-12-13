@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>brian@joechip.net</string>
+	<string>bryan@avalonstar.com</string>
 	<key>contactName</key>
-	<string>Brian Kerr</string>
+	<string>Bryan Veloso</string>
 	<key>deleted</key>
 	<array/>
 	<key>description</key>
-	<string>Support for the &lt;a href="http://www.djangoproject.com/"&gt;Django web framework&lt;/a&gt; (Python).</string>
+	<string>Support for the &lt;a href=&quot;http://www.djangoproject.com/&quot;&gt;Django web framework&lt;/a&gt; (Python).</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>excludedItems</key>
