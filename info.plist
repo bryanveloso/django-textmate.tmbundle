@@ -9,7 +9,7 @@
 	<key>deleted</key>
 	<array/>
 	<key>description</key>
-	<string>Support for the &lt;a href=&quot;http://www.djangoproject.com/&quot;&gt;Django web framework&lt;/a&gt; (Python).</string>
+	<string>Support for the &lt;a href="http://www.djangoproject.com/"&gt;Django web framework&lt;/a&gt; (Python).</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>excludedItems</key>
@@ -201,7 +201,7 @@
 		</dict>
 	</dict>
 	<key>name</key>
-	<string>Revyver - Django</string>
+	<string>Django</string>
 	<key>ordering</key>
 	<array>
 		<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
