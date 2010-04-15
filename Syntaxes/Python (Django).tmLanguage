@@ -16,7 +16,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>(meta|models|generic)\.(AutoField|BooleanField|CharField|CommaSeparatedIntegerField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ForeignKey|GenericForeignKey|GenericRelation|ImageField|IntegerField|IPAddressField|ManyToManyField|NullBooleanField|OneToOneField|PhoneNumberField|PositiveIntegerField|PositiveSmallIntegerField|SlugField|SmallIntegerField|TextField|TimeField|URLField|USStateField|XMLField)|(abstract|db_table|db_tablespace|get_latest_by|order_with_respect_to|ordering|permissions|unique_together|verbose_name_plural|verbose_name)|(null|blank|choices|core|db_column|db_index|db_tablespace|default|editable|help_text|primary_key|unique|unique_for_date|unique_for_month|unique_for_year|validator_list|upload_to)|(?x)\b(models)\b</string>
+			<string>(meta|models|generic)\.(AutoField|BigIntegerField|BooleanField|CharField|CommaSeparatedIntegerField|DateField|DateTimeField|DecimalField|EmailField|FileField|FilePathField|FloatField|ForeignKey|GenericForeignKey|GenericRelation|ImageField|IntegerField|IPAddressField|ManyToManyField|NullBooleanField|OneToOneField|PhoneNumberField|PositiveIntegerField|PositiveSmallIntegerField|SlugField|SmallIntegerField|TextField|TimeField|URLField|USStateField|XMLField)|(abstract|db_table|db_tablespace|get_latest_by|order_with_respect_to|ordering|permissions|unique_together|verbose_name_plural|verbose_name)|(null|blank|choices|core|db_column|db_index|db_tablespace|default|editable|help_text|primary_key|unique|unique_for_date|unique_for_month|unique_for_year|validator_list|upload_to)|(?x)\b(models)\b</string>
 			<key>name</key>
 			<string>support.type.django.model</string>
 		</dict>
@@ -28,7 +28,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?x)\b(actions|allow_add|date_hierarchy|exclude|form|fieldsets|fields|filter_horizontal|filter_vertical|list_display|list_display_links|list_editable|list_filter|list_per_page|list_select_related|inlines|ordering|prepopulated_fields|radio_fields|raw_id_fields|save_as|save_on_top|search_fields)\b|(?x)\b(model|fk_name|formset|form|extra|max_num|raw_id_fields|template|verbose_name|verbose_name_plural)\b</string>
+			<string>(?x)\b(actions|allow_add|date_hierarchy|exclude|form|fieldsets|fields|filter_horizontal|filter_vertical|list_display|list_display_links|list_editable|list_filter|list_per_page|list_select_related|inlines|ordering|prepopulated_fields|radio_fields|raw_id_fields|readonly_fields|save_as|save_on_top|search_fields)\b|(?x)\b(model|fk_name|formset|form|extra|max_num|raw_id_fields|template|verbose_name|verbose_name_plural)\b</string>
 			<key>name</key>
 			<string>support.type.django.admin</string>
 		</dict>
