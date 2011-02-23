@@ -47,6 +47,8 @@
 				<string>block</string>
 			</dict>
 		</array>
+		<key>spellChecking</key>
+		<string>0</string>
 	</dict>
 	<key>uuid</key>
 	<string>A3452E24-5C3A-42AF-B7D4-1C509BEEB638</string>
