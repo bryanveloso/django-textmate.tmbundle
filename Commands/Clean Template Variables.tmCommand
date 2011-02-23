@@ -27,7 +27,7 @@ print clean_vars(clean_tags(stdin))</string>
 	<key>input</key>
 	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>^t</string>
+	<string>^`</string>
 	<key>name</key>
 	<string>Clean Template Variables</string>
 	<key>output</key>

@@ -12,10 +12,6 @@
 	<string>Support for the &lt;a href="http://www.djangoproject.com/"&gt;Django web framework&lt;/a&gt; (Python).</string>
 	<key>mainMenu</key>
 	<dict>
-		<key>excludedItems</key>
-		<array>
-			<string>5F79A28E-E2FA-4266-A069-2983B8828C04</string>
-		</array>
 		<key>items</key>
 		<array>
 			<string>F1E7BDF4-8AC5-488D-A56E-819605145619</string>
@@ -25,8 +21,11 @@
 			<string>45FE4455-BA36-422B-9C26-9978CA17E080</string>
 			<string>513A9D8E-4820-4490-8DF1-3B68BE58A66F</string>
 			<string>9729FC2E-E993-4B0B-AEDB-B6861AB98BAA</string>
-			<string>97AF7101-45AD-4286-8AA2-4F43E63EB452</string>
 			<string>649FDADA-8942-4AA7-9F6D-952805DC6DE4</string>
+			<string>72299BE1-9093-4215-84C0-A0900E7CFF09</string>
+			<string>------------------------------------</string>
+			<string>97AF7101-45AD-4286-8AA2-4F43E63EB452</string>
+			<string>5F79A28E-E2FA-4266-A069-2983B8828C04</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -205,6 +204,9 @@
 	<string>Django</string>
 	<key>ordering</key>
 	<array>
+		<string>A3452E24-5C3A-42AF-B7D4-1C509BEEB638</string>
+		<string>5326D56C-6F76-4758-8DB7-D818527919AC</string>
+		<string>F4B0A70C-ECF6-4660-BC26-785216E3CF02</string>
 		<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
 		<string>13C50F79-B005-43DC-9314-39DCB62D66D6</string>
 		<string>49871C33-F806-4913-BAAE-F59DF9678E4E</string>
@@ -240,14 +242,14 @@
 		<string>0B31BBE8-B195-4164-B4F6-245803D21C30</string>
 		<string>97AF7101-45AD-4286-8AA2-4F43E63EB452</string>
 		<string>5F79A28E-E2FA-4266-A069-2983B8828C04</string>
+		<string>649FDADA-8942-4AA7-9F6D-952805DC6DE4</string>
+		<string>72299BE1-9093-4215-84C0-A0900E7CFF09</string>
 		<string>E61F8305-7133-4E20-A588-0ABE0D7606F7</string>
 		<string>8586AC8D-FB3D-463B-90F2-39C406A7AD56</string>
 		<string>4AF3A297-111C-4FBC-841F-2CA530A41F08</string>
 		<string>812C9AE3-18CA-449F-B3CE-C8DB9EB6782C</string>
 		<string>10C0357D-EB2C-4CC7-B361-391A35AE3C2E</string>
-		<string>649FDADA-8942-4AA7-9F6D-952805DC6DE4</string>
 		<string>8C303CB4-D2DC-4DEA-9CF6-B8E24C021646</string>
-		<string>A3452E24-5C3A-42AF-B7D4-1C509BEEB638</string>
 		<string>392C9A9F-2264-421D-9EAB-95CE16481B1B</string>
 		<string>AB73645D-3A5D-41F0-9E91-15662F41EC03</string>
 		<string>7B68FB0B-DCA8-4F87-99B6-9724565D93B6</string>
@@ -319,8 +321,6 @@
 		<string>6BC31FF7-5C04-4B50-B01B-FDEEC28C2432</string>
 		<string>649D2F54-31CB-4577-862E-E38593334D4A</string>
 		<string>20F0FE5C-BF8C-4258-8F93-3D6F62447068</string>
-		<string>5326D56C-6F76-4758-8DB7-D818527919AC</string>
-		<string>F4B0A70C-ECF6-4660-BC26-785216E3CF02</string>
 		<string>25252B01-659D-462B-978D-CAE0221B075A</string>
 		<string>6077AFA6-98D5-4FC9-AF39-4A65432433E8</string>
 		<string>62F689B9-6665-44E8-9DCB-C1766018B369</string>
